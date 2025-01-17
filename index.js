@@ -15,7 +15,7 @@ client.on(Events.MessageCreate,(message)=>{
 
     if(!message.author.bot){
         if(message.content == "hi"){
-            message.reply( {content:'hi from bot'})
+            message.reply( {content:`I detected  ${message.content}`})
         }
         
     }
